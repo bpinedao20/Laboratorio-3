@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bryan Pineda\\Desktop\\8VO SEMESTRE\\DESARROLLO WEB\\Laboratorio 3\\Marcador-de-baloncesto\\api\\Api.csproj": {}
+    "C:\\Users\\Bryan Pineda\\Desktop\\8VO SEMESTRE\\DESARROLLO WEB\\Lab 3 clone del baloncesto\\Laboratorio-3\\api\\Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Bryan Pineda\\Desktop\\8VO SEMESTRE\\DESARROLLO WEB\\Laboratorio 3\\Marcador-de-baloncesto\\api\\Api.csproj": {
+    "C:\\Users\\Bryan Pineda\\Desktop\\8VO SEMESTRE\\DESARROLLO WEB\\Lab 3 clone del baloncesto\\Laboratorio-3\\api\\Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bryan Pineda\\Desktop\\8VO SEMESTRE\\DESARROLLO WEB\\Laboratorio 3\\Marcador-de-baloncesto\\api\\Api.csproj",
+        "projectUniqueName": "C:\\Users\\Bryan Pineda\\Desktop\\8VO SEMESTRE\\DESARROLLO WEB\\Lab 3 clone del baloncesto\\Laboratorio-3\\api\\Api.csproj",
         "projectName": "Api",
-        "projectPath": "C:\\Users\\Bryan Pineda\\Desktop\\8VO SEMESTRE\\DESARROLLO WEB\\Laboratorio 3\\Marcador-de-baloncesto\\api\\Api.csproj",
+        "projectPath": "C:\\Users\\Bryan Pineda\\Desktop\\8VO SEMESTRE\\DESARROLLO WEB\\Lab 3 clone del baloncesto\\Laboratorio-3\\api\\Api.csproj",
         "packagesPath": "C:\\Users\\Bryan Pineda\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bryan Pineda\\Desktop\\8VO SEMESTRE\\DESARROLLO WEB\\Laboratorio 3\\Marcador-de-baloncesto\\api\\obj\\",
+        "outputPath": "C:\\Users\\Bryan Pineda\\Desktop\\8VO SEMESTRE\\DESARROLLO WEB\\Lab 3 clone del baloncesto\\Laboratorio-3\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Bryan Pineda\\AppData\\Roaming\\NuGet\\NuGet.Config"

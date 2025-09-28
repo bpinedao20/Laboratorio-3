@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WSBBK5fgU9g=",
+  "dgSpecHash": "qknyiPjCrfk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Bryan Pineda\\Desktop\\8VO SEMESTRE\\DESARROLLO WEB\\Laboratorio 3\\Marcador-de-baloncesto\\api\\Api.csproj",
+  "projectFilePath": "C:\\Users\\Bryan Pineda\\Desktop\\8VO SEMESTRE\\DESARROLLO WEB\\Lab 3 clone del baloncesto\\Laboratorio-3\\api\\Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bryan Pineda\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Bryan Pineda\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
