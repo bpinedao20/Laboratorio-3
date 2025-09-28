@@ -28,7 +28,7 @@ services:
     volumes:
       - ./db:/db
       - ./scripts:/scripts
-    entrypoint: ["/bin/bash","-c","/scripts/db-init.sh"]
+    entrypoint: ["/bin/bash","/scripts/db-init.sh"]   # evita problemas de permisos en Windows
     restart: "no"
     profiles: ["db", "all"]
 
@@ -62,8 +62,22 @@ services:
     container_name: marcador_ui
     depends_on:
       api:
-        condition: service_started   # espera a que el contenedor api esté arrancado
-    restart: unless-stopped          # si falla por DNS al principio, se reinicia solo
+        condition: service_started
+    restart: unless-stopped
     ports:
       - "4200:80"
     profiles: ["ui", "all"]
+
+  proxy:
+    image: nginx:alpine
+    container_name: marcador_proxy
+    depends_on:
+      - api
+      - ui
+    ports:
+      - "80:80"
+    volumes:
+      - ./Proxy/nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    networks:
+      - default
+    profiles: ["proxy", "all"]
